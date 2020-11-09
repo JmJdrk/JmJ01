@@ -25,7 +25,7 @@ public class EventosIII {
 
 class MarcoConBotones1 extends JFrame{
 	public MarcoConBotones1() {
-		setTitle("Jaime");
+		setTitle("Titulo De Ventana");
 		setBounds(700,300,500,300);
 		setUndecorated(true);
 
