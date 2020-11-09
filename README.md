@@ -1,6 +1,6 @@
 # JmJ01
 Simple Java GUI Interfaz
-Dowload the zip file called Pruebas1.zip
+Dowload the zip file called Pruebas.zip
 Open it with your code-editor
 And It Should Work! 
 
