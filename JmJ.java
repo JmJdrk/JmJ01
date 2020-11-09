@@ -1,4 +1,4 @@
-//This is the International version wich changes the laguge of the words contained from Spanish to English, 
+//This is the International version wich changes the language of the words contained from Spanish to English, 
 
 import javax.swing.JFrame;
 import javax.swing.border.Border;
