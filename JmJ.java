@@ -1,3 +1,5 @@
+//This is the International version wich changes the laguge of the words contained from Spanish to English, 
+
 import javax.swing.JFrame;
 import javax.swing.border.Border;
 
@@ -14,9 +16,9 @@ import javax.imageio.*;
 public class EventosIII {
 
 	public static void main(String[] args) {
-		MarcoConBotones1 mimarco = new MarcoConBotones1();
-		mimarco.setVisible(true);
-		mimarco.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		FrameWork myFramework = new FrameWork();
+		myFramework.setVisible(true);
+		myFramework.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
 
 	}
@@ -24,17 +26,17 @@ public class EventosIII {
 }
 
 class MarcoConBotones1 extends JFrame{
-	public MarcoConBotones1() {
+	public FrameWork() {
 		setTitle("Titulo De Ventana");
 		setBounds(700,300,500,300);
 		setUndecorated(true);
 
-		LaminaBotones1 milamina = new LaminaBotones1();
+		Laminated milamina = new Laminated();
 		add(milamina);
 	}
 }
 
-class LaminaBotones1 extends JPanel{
+class Laminated extends JPanel{
 	
 	//Agregar objeto fuente
 	JButton Botons1 = new JButton("Calculadora");
@@ -46,7 +48,7 @@ class LaminaBotones1 extends JPanel{
 	
 	
 	//creo el contructor para ese boton
-	public LaminaBotones1() {
+	public Laminated() {
 
 		this.setBackground(Color.gray);
 		
